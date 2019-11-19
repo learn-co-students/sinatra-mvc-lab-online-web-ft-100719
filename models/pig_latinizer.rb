@@ -1,5 +1,7 @@
 class PigLatinizer
 
+    def initialize
+    end
     def piglatinize(text)
         words_array = text.split(" ")
         translated_array = words_array.map {|word| piglatinize_word(word)}
